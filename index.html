@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta name="description" content="충주라이트월드 티켓구매사이트">
+    <meta name="keywords" content="충주, 라이트월드, 충주라이트월드">
+    <meta name="author" content="passnjoy">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Title -->
+    <title>충주라이트월드</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootsnav CSS -->
+    <link href="css/bootsnav.css" rel="stylesheet">
+
+    <!-- Fontawesome CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto' rel='stylesheet' type='text/css'>
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Lib css -->
+    <link rel="stylesheet" href="lib/custombox-4.0.3/dist/custombox.min.css">
+
+</head>
+<body>
+<!--Hero-->
+<nav class="navbar navbar-default navbar-fixed white bootsnav on no-full navbar-transparent">
+    <div class="container">
+        <!-- Start Header Navigation -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo/logo_new.png" class="logo logo-display" alt="">
+                <img src="img/logo/logo_new.png" class="logo logo-scrolled" alt="">
+            </a>
+        </div>
+        <!-- End Header Navigation -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="navmenu" href="#ticket">Ticket</a></li>
+                <li><a class="navmenu" href="#package">Package</a></li>
+                <li><a class="navmenu" href="#about">About</a></li>
+                <li><a class="navmenu" href="#consult">문의/상담</a></li>
+                <li><a class="modal-oepn" data-modal="modal-login" style="cursor: pointer;">로그인</a></li>
+                <li><a class="modal-oepn" data-modal="modal-reservation" style="cursor: pointer;">주문확인</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+
+
+<!-- Main Banner -->
+<section id="home" class="hero hero_full_screen hero_parallax parallax-window" data-stellar-background-ratio="0.5">
+    <div class="bg-overlay opacity-6">
+    </div>
+    <div class="hero_parallax_inner">
+        <div class="container text-center">
+            <span class="big-slider-title">충주라이트월드</span>
+            <p class="slider-sub-txt" style="color: #b3a4a4;">규모에 압도되고 화려함에 넋을 잃는다</p>
+            <p class="slider-sub-info">세계의 빛! 충주의 빛! 생명의 빛!</p>
+            <div class="slider-spc" data-ix="slide-spc"
+                 style="opacity: 1; transform: translateX(0px) translateY(0px); transition: opacity 500ms ease 0s, transform 500ms ease 0s;">
+                <a class="button no-lft-mrg" style="cursor: pointer;">티켓 구매하기</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ Main Banner ends-->
+
+<!--Ticket-->
+<section class="section_100" id="ticket" style="background: #070b1b;">
+    <div class="container">
+        <div class="row">
+            <div class="flex-section-heading text-center white">
+                <h3>Ticekt <span>Services</span></h3>
+                <div class="heading-border"></div>
+            </div>
+        </div>
+        <div class="row mt-50" style="margin-bottom: 50px;">
+            <div class="col-lg-6 padding-0 ">
+                <img class="img-responsive" src="img/ticket.jpg" alt="">
+            </div>
+            <div class="col-lg-6" style="margin-top: 25px;">
+                <div class="col-lg-12">
+                    <span class="ticket-title">세계 최초, 세계 최대 규모의 상설 빛의 테마파크 '라이트월드'</span>
+                    <p class="white" style="margin-top: 20px;">세계테마, 충주테마, 설치미술,생명테마, 정크아트,테크노, 엔터테인먼트 등 충주세계무술공원 부지에
+                        조성된 상설 빛의 테마파크입니다.</p>
+                    <p class="white">충주무술공원과 함께 야간 테마파크가 운영됩니다.</p>
+                    <p class="white">구매 후 모바일입장권이 10분 이내로 발송됩니다.</p>
+                    <p class="white">해당 입장권은 기본권이며 파크 내 별도 유료시설(바이킹 등)은 현장에서 별도로 이용권을 구매하신 후 이용 가능합니다.</p>
+                </div>
+                <div class="col-lg-12" style="margin-top: 50px;">
+                    <div class="col-lg-6" style="margin-bottom: 10px;">
+                        <select name="ticket-opt" class="form-control">
+                            <option value="none">상품 선택</option>
+                            <option value="opt-1">충주라이트월드 입장권</option>
+                            <option value="opt-2" style="color: red;">충주라이트월드 연간입장권</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-6" style="margin-bottom: 10px;">
+                        <button id="ticket-buy" class="btn btn-basic" style="width: 100%;">구매하기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ Services ends-->
+
+<!--Services-->
+<section class="section_100" id="service" style="background: #f9f9f9;">
+    <div class="container">
+        <div class="row">
+            <div class="flex-section-heading text-center">
+                <h3>Our <span>Services</span></h3>
+                <div class="heading-border"></div>
+            </div>
+        </div>
+        <div class="row mt-50">
+            <div class="col-md-4 col-sm-4 feature-box">
+                <a class="feature-icon">
+                    <i class="fa fa-ticket"></i>
+                </a>
+                <!-- <img src="http://placehold.it/400x300" class="img-responsive" alt="Project Title"> -->
+                <h5>입장권 할인</h5>
+                <p>일일 입장권을 할인된 가격으로 사전구매</p>
+            </div>
+            <div class="col-md-4 col-sm-4  feature-box">
+                <a class="feature-icon">
+                    <i class="fa fa-users"></i>
+                </a>
+                <!-- <img src="http://placehold.it/400x300" class="img-responsive" alt="Project Title"> -->
+                <h5>단체 추가 할인</h5>
+                <p>단체 20인 이상 구매시 추가 할인을 제공해드립니다. (별도문의)</p>
+            </div>
+            <div class="col-md-4 col-sm-4  feature-box">
+                <a class="feature-icon">
+                    <i class="fa fa-percent"></i>
+                </a>
+                <!-- <img src="http://placehold.it/400x300" class="img-responsive" alt="Project Title"> -->
+                <h5>연간입장권 추가할인</h5>
+                <p>오직 사전구매 사이트에서만 추가할인을 받아보세요. 최대 25%할인 혜택을 받을 수 있습니다.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ Services ends-->
+
+<!--About-->
+<section class="section_100 white" id="about" style="background: #070b1b;">
+    <div class="container">
+        <div class="row">
+            <div class="flex-section-heading text-center">
+                <h3>충주 <span>라이트월드</span></h3>
+                <div class="heading-border"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1  col-sm-6">
+                <div class="about-img">
+                    <img src="img/about.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6  col-sm-6">
+                <div class="about-text">
+                    <!-- <h3>세계 최초, 세계 최대의 상설 전시<span> 빛의 테마 파크</span> ‘라이트월드’</h3> -->
+                    <p>제작인원 3만명, 450억 규모로 세계 테마존, 충주 테마존, 정크아트, 캐릭터, 아트존과 놀이시설 등 다양한 구성으로 화려함을 보여줍니다.</p>
+                    <p>온라인예매 사이트에서는 라이트월드 일일 입장권과 연간이용권을 할인된 가격으로 사전구매 할 수 있습니다.</p>
+                    <p>구매와 동시에 실시간으로 모바일 입장권 발송되며 현장 매표소에서 인증 후 당일 입장권 교환 후 바로 사용 가능합니다.</p>
+                    <p>&nbsp;</p>
+                    <div class="author-signature">
+                        <p>충주라이트월드 & 패스엔조이</p>
+                        <button class="btn btn-basic modal-oepn" data-modal="tosinfo">모바일 입장권(TOS) 자세히보기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- TOS 간략 소개 -->
+        <!-- <div class="row" style="margin-top: 50px;">
+            <div class="about-tos-title" style="text-align: center;">
+                <h4>모바일 입장권(TOS) with PASSNJOY</h4>
+            </div>
+            <div class="about-tos-img" style="text-align: center;">
+                <img src="img/tos.jpg" alt="모바일입장권" style="width: 800px;" />
+            </div>
+        </div> -->
+    </div>
+</section>
+<!--/ About ends-->
+
+<!-- Package -->
+<section class="section_100" id="package">
+    <div class="container">
+        <div class="row">
+            <div class="flex-section-heading text-center">
+                <h3>Program <span>Package</span></h3>
+                <div class="heading-border"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="single-team">
+                    <div class="team-img">
+                        <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                    </div>
+                    <div class="team-info mt-20">
+                        <h4>패키지상품1</h4>
+                        <p>패스엔조이와 함께 하는 패키지</p>
+                        <div class="social-icon mt-20">
+                            <a class="btn btn-basic" href="#">Buy Now</a>
+                            <a class="btn btn-default" href="#">Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="single-team">
+                    <div class="team-img">
+                        <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                    </div>
+                    <div class="team-info mt-20">
+                        <h4>패키지상품2</h4>
+                        <p>패스엔조이와 함께 하는 패키지</p>
+                        <div class="social-icon mt-20">
+                            <a class="btn btn-basic" href="#">Buy Now</a>
+                            <a class="btn btn-default" href="#">Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="single-team">
+                    <div class="team-img">
+                        <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                    </div>
+                    <div class="team-info mt-20">
+                        <h4>패키지상품3</h4>
+                        <p>패스엔조이와 함께 하는 패키지</p>
+                        <div class="social-icon mt-20">
+                            <a class="btn btn-basic" href="#">Buy Now</a>
+                            <a class="btn btn-default" href="#">Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ Team ends-->
+
+<!--Consult-->
+<section class="section_100" id="consult" style="background: #f9f9f9;">
+    <div class="container">
+        <div class="row">
+            <div class="flex-section-heading text-center">
+                <h3><span>문의/상담</span></h3>
+                <div class="heading-border"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6" style="text-align: center;">
+                <div class="consult-box">
+                    <h4>패스엔조이 고객센터</h4>
+                    <p><i class="fa fa-phone-square"></i>1644 - 1936</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6" style="text-align: center;">
+                <div class="consult-box">
+                    <h4>카카오톡 상담</h4>
+                    <p><i class="fa fa-mobile"></i>@패스엔조이</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/ Consult ends-->
+
+<!-- Modal -->
+<div id="modal" class="js-modal">
+    <a href="javascript:void(0);" onclick="Custombox.modal.close();" class="js-modal-close"><i class="fa fa-times"></i></a>
+    <button type="button" class="btn btn-outline btn-info js-modal-close-btn" onclick="Custombox.modal.close();">Close
+    </button>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+    type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+    remaining essentially unchanged.
+</div>
+
+<div id="modal-login" class="js-modal" style="max-width: 500px !important;">
+    <!-- <a href="javascript:void(0);" onclick="Custombox.modal.close();" class="js-modal-close"><i class="fa fa-times"></i></a> -->
+    <div class="js-modal-top">
+        <span style="font-weight: 700;">로그인(Login)</span>
+        <button type="button" class="js-modal-close-btn" onclick="Custombox.modal.close();">
+            <i class="fa fa-close"></i>
+        </button>
+    </div>
+    <!-- TOS 간략 소개 -->
+    <div class="container" style="max-width: 450px;">
+        <div class="row">
+            <div class="col-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <form accept-charset="UTF-8" role="form">
+                        <fieldset>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Email" name="email" type="text">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Password" name="password" type="password" value="">
+                            </div>
+                            <input class="btn btn-md btn-basic btn-block" type="submit" value="로그인">
+                            <a class="btn btn-md btn-default btn-block" href="http://www.passnjoy.com/svc/njoy/join.php" target="_blank">회원가입</a>
+                            <p style="text-align:center; color: red; "><i class="fa fa-sign-in"></i> &nbsp;NJOY통합회원으로 혜택을 받으세요!</p>
+                        </fieldset>
+                        </form>
+                          <hr/>
+                        <center><h4>OR</h4></center>
+                        <input class="btn btn-md btn-facebook btn-block" type="submit" value="facebook">
+                        <input class="btn btn-md btn-kakao btn-block" type="submit" value="kakao">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="tosinfo" class="js-modal">
+    <!-- <a href="javascript:void(0);" onclick="Custombox.modal.close();" class="js-modal-close"><i class="fa fa-times"></i></a> -->
+    <div class="js-modal-top">
+        <span style="font-weight: 700;">모바일 입장권 안내</span>
+        <button type="button" class="js-modal-close-btn" onclick="Custombox.modal.close();">
+            <i class="fa fa-close"></i>
+        </button>
+    </div>
+    <!-- TOS 간략 소개 -->
+    <div class="row">
+        <div class="about-tos-title" style="text-align: center;">
+            <h4>입장권 발송 및 배송 안내</h4>
+        </div>
+        <div class="about-tos-img" style="text-align: center;">
+            <img src="img/tos.jpg" alt="모바일입장권" style="width: 100%;"/>
+        </div>
+        <div class="about-tos-txt">
+            <ul>
+                <span>1. 발송기간</span>
+                <li>구매후 5분 내에 구매 시 기재하신 번호로 모바일 입장권이 자동 발송됩니다.
+                    <p> ~ 누락 시, 스팸 문자도 확인 부탁 드립니다.</p>
+                </li>
+                <li>기재하신 연락처로 문자 1개가 발송됩니다.</li>
+                <li>모바일 입장권 보기 링크 클릭 시 구매 옵션/수량에 맞는입장권 확인이 가능합니다.</li>
+            </ul>
+            <ul>
+                <span>2. 이용방법</span>
+                <p>입장처에서 모바일 입장권 제시 후 이용 가능합니다.</p>
+            </ul>
+            <ul>
+                <span>3. 유효기간</span>
+                <p>구매일로부터 30일 또는 60일 안에 이용하셔야 합니다. *상품마다 규정이 다르니 확인 부탁드립니다.</p>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- / Modal ends -->
+
+<!-- hidden value -->
+<input type="hidden" name="login-user-name" value="" />
+<input type="hidden" name="login-user-email" value="" />
+<input type="hidden" name="login-user-phone" value="" />
+<input type="hidden" name="" value="" />
+<input type="hidden" name="" value="" />
+
+<!--Footer Us-->
+<footer class="flex-footer-area section_50">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-social">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-copyright">
+                    <p><span>©PASSNJOY</span> Co. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--/ Footer ends-->
+
+<!-- SCRIPTS -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootsnav.js"></script>
+<script src="js/jquery.mixitup.js"></script>
+
+<!-- Config -->
+<script src="js/form.config.js"></script>
+
+<!-- Lib -->
+<script src="lib/custombox-4.0.3/dist/custombox.min.js"></script>
+<script src="lib/custombox-4.0.3/dist/custombox.legacy.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navmenu, footer a[href='#myPage'], .overlay-detail a").on('click', function (event) {
+
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 900, function () {
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+        });
+
+        $(".modal-oepn").click(function () {
+            var modal_id = '#' + $(this).data("modal");
+            // Instantiate new modal
+            var modal = new Custombox.modal({
+                content: {
+                    effect: 'fadein',
+                    target: modal_id
+                }
+            });
+
+            modal.open();
+        });
+
+        $(".slider-spc").click(function () {
+            var position = $("#ticket").offset().top;
+            $('html, body').animate({scrollTop : position}, 500);
+        });
+    });
+
+</script>
+<script>
+    // Instantiate MixItUp:
+    $('#grid').mixItUp();
+</script>
+</body>
+</html>

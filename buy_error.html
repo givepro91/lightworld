@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta name="description" content="충주라이트월드 티켓구매사이트">
+    <meta name="keywords" content="충주, 라이트월드, 충주라이트월드">
+    <meta name="author" content="passnjoy">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Title -->
+    <title>충주라이트월드</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootsnav CSS -->
+    <link href="css/bootsnav.css" rel="stylesheet">
+
+    <!-- Fontawesome CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto' rel='stylesheet' type='text/css'>
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Lib css -->
+    <link rel="stylesheet" href="lib/custombox-4.0.3/dist/custombox.min.css">
+
+</head>
+<body>
+<!--Hero-->
+<nav class="navbar navbar-default navbar-fixed white bootsnav on no-full navbar-transparent">
+    <div class="container">
+        <!-- Start Header Navigation -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo/logo_new.png" class="logo logo-display" alt="">
+                <img src="img/logo/logo_new.png" class="logo logo-scrolled" alt="">
+            </a>
+        </div>
+        <!-- End Header Navigation -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">주문확인</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+
+<!-- BUY Start-->
+<section class="section_100" style="background: #f9f9f9;">
+    <div class="container">
+        <form>
+        <input type="hidden" name="amount" id="amount" value="0" />
+        <div class="row order-form">
+            <div class="flex-section-heading text-center">
+            	<h3><span><i class="fa fa-credit-card"></i></span></h3>
+                <h3><span>주문실패</span></h3>
+                <div class="heading-border"></div>
+            </div>
+
+            <h4 style="text-align: center;">고객님의 결제가 실패하였습니다.</h4>
+            <p style="text-align: center;">죄송합니다. 다시 재시도 하시거나 고객센터 1644-1936에 문의하여 주시기 바랍니다.</p>
+            <div class="order-box" >
+                <p class="amount-txt" style="text-align: center;">실패사유</p>
+                <div style="text-align: center;"><b>신용카드 한도초과</b></div>
+            </div>
+
+        </form>
+        <!-- 결제/취소 -->
+        <div style="text-align: center;">
+            <a href="index.html" class="btn btn-basic order-btn">메인으로</a>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!--Footer Us-->
+<footer class="flex-footer-area section_50">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-social">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-copyright">
+                    <p><span>©PASSNJOY</span> Co. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--/ Footer ends-->
+
+<!-- SCRIPTS -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootsnav.js"></script>
+<script src="js/jquery.mixitup.js"></script>
+
+<!-- Config -->
+<script src="js/form.config.js"></script>
+
+<!-- Lib -->
+<script src="lib/custombox-4.0.3/dist/custombox.min.js"></script>
+<script src="lib/custombox-4.0.3/dist/custombox.legacy.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        /*$(".modal-oepn").click(function () {
+            var modal_id = '#' + $(this).data("modal");
+            // Instantiate new modal
+            var modal = new Custombox.modal({
+                content: {
+                    effect: 'fadein',
+                    target: modal_id
+                }
+            });
+
+            modal.open();
+        });*/
+    });
+
+</script>
+<script>
+    // Instantiate MixItUp:
+    $('#grid').mixItUp();
+</script>
+</body>
+</html>
